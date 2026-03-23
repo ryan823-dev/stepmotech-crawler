@@ -1,0 +1,30 @@
+{
+  "supabase": {
+    "url": "https://qwcwkfavkrevxonnfkrw.supabase.co",
+    "anon_key": "sb_publishable_qqy39AdcMbtNNzhgiD404A_RrjpVIx",
+    "service_key": ""
+  },
+  "crawl": {
+    "max_products": 500,
+    "delay": 1.0,
+    "retry": 3,
+    "batch_size": 50
+  },
+  "source": {
+    "base_url": "https://www.omc-stepperonline.com",
+    "categories": [
+      "stepper-motors",
+      "servo-motors",
+      "linear-actuators",
+      "gearboxes",
+      "drivers",
+      "accessories"
+    ]
+  },
+  "output": {
+    "save_images": true,
+    "save_pdfs": true,
+    "images_dir": "data/images",
+    "pdfs_dir": "data/pdfs"
+  }
+}
